@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZSso6+YeGkY=",
+  "success": true,
+  "projectFilePath": "C:\\repo\\DesignPatternsLab\\DesignPatternsLab\\02-OrderManagement-Guided\\OrderManagement.Api\\OrderManagement.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "C:\\Users\\rodri\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
