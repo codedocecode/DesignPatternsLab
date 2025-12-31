@@ -5,6 +5,11 @@
     <RootNamespace>_02_State</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Strategy\01-Strategy\01-Strategy.csproj" />
+  </ItemGroup>
 
 </Project>

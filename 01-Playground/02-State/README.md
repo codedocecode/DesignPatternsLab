@@ -2,8 +2,8 @@
 
 ## 🎯 Goal
 
-Learn the **State pattern** by managing order status transitions 
-without using conditional statements.
+Learn the **State pattern** by modeling the different states of an order
+(Created, Paid, Shipped, Completed) without using conditional statements.
 
 This is a hands-on exercise.
 You are expected to **write the code**, not just read it.
@@ -83,35 +83,11 @@ else if(order.State == OrderState.Shipped)
 
 ## 🧩 Hints
 
-```csharp
-// Define interface for order states
-internal interface IOrderState
-{
-    void Pay(Order order);
-    void Ship(Order order);
-    void Complete(Order order);
-}
-
-// Concrete state example
-internal class CreatedState : IOrderState
-{
-    public void Pay(Order order) { order.SetState(new PaidState()); }
-    public void Ship(Order order) { throw new InvalidOperationException("Cannot ship before payment"); }
-    public void Complete(Order order) { throw new InvalidOperationException("Cannot complete before shipment"); }
-}
-
-// Order class delegates behavior
-internal class Order
-{
-    private IOrderState _state;
-    public Order() { _state = new CreatedState(); }
-    public void Pay() => _state.Pay(this);
-    public void Ship() => _state.Ship(this);
-    public void Complete() => _state.Complete(this);
-    internal void SetState(IOrderState state) { _state = state; }
-}
-```
-- Optional: add a console example or simple test to move through states
+- Define an `IOrderState` interface with methods for the possible actions (e.g., `Pay`, `Ship`, `Complete`)
+- Each concrete state implements the interface
+- The `Order` class delegates behavior to the current state instance
+- Think about what should happen if an action is invoked in the wrong state
+- Optional: use a simple console example or test to move an order through its lifecycle
 
 ---
 
