@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/01-Playground/.vs
+/01-Playground/01-Strategy/01-Strategy/.vs/01-Strategy
+/01-Playground/01-Strategy/01-Strategy/bin/Debug/net10.0
+/01-Playground/01-Strategy/01-Strategy/obj/Debug/net10.0
+/01-Playground/01-Strategy/01-Strategy/obj/Release/net10.0
+/01-Playground/01-Strategy/01-Strategy/obj/01-Strategy.csproj.nuget.dgspec.json
+/01-Playground/01-Strategy/01-Strategy/obj/project.assets.json
+/01-Playground/01-Strategy/01-Strategy/obj/project.nuget.cache
