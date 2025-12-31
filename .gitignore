@@ -10,3 +10,16 @@
 /01-Playground/01-Strategy/01-Strategy/obj/01-Strategy.csproj.nuget.dgspec.json
 /01-Playground/01-Strategy/01-Strategy/obj/project.assets.json
 /01-Playground/01-Strategy/01-Strategy/obj/project.nuget.cache
+/01-Playground/02-State/02-State/obj/Debug/net10.0
+/01-Playground/02-State/02-State/obj/Release/net10.0
+/01-Playground/02-State/02-State/obj/02-State.csproj.nuget.dgspec.json
+/01-Playground/02-State/02-State/obj/project.assets.json
+/01-Playground/02-State/02-State/obj/project.nuget.cache
+/01-Playground/03-Command/03-Command/obj/Debug/net10.0
+/01-Playground/03-Command/03-Command/obj/Release/net10.0
+/01-Playground/04-Observer/04-Observer/obj/Debug/net10.0
+/01-Playground/04-Observer/04-Observer/obj/Release/net10.0
+/01-Playground/05-ChainOfResponsibility/05-ChainOfResponsibility/obj/Debug/net10.0
+/01-Playground/05-ChainOfResponsibility/05-ChainOfResponsibility/obj/Release/net10.0
+/01-Playground/06-Repository/06-Repository/obj/Debug/net10.0
+/01-Playground/06-Repository/06-Repository/obj/Release/net10.0
